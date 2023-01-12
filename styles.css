@@ -1,0 +1,43 @@
+#headerText {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#gameBoard{
+    width: 231px;
+    height: 231px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cell {
+    height: 75px;
+    width: 75px;
+    background-color: #dcb5ff;
+    border: 1px solid black;
+    
+}
+
+main {
+    margin-left: 35%;
+    margin-top: 5%%;
+   
+}
+    
+body { 
+    background-color: #d9f2ff; 
+}
+
+#startButton {
+    background-color:  #a5bdfd;
+    width:fit-content;
+    margin-left: 85px;
+}
+
+#resetButton {
+    background-color:#77529e;
+    width: fit-content;
+    margin-left: 85px;
+    color:white;
+}
